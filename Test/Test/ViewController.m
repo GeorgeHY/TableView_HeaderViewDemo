@@ -57,6 +57,7 @@ static NSString * cellIdentifier = @"Mycell";
 {
     UITableViewCell * cell = [tableView dequeueReusableCellWithIdentifier:cellIdentifier forIndexPath:indexPath];
     cell.textLabel.text = @"haha";
+    NSLog(@"test");
     return cell;
 }
 
